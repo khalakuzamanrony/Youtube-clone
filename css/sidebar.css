@@ -1,0 +1,38 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 70px;
+  width: 80px;
+  
+  
+}
+.sidebar-box
+{
+height: 85px;
+margin-bottom: 1px;
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+z-index: 200;
+cursor: pointer;
+
+
+}
+.sidebar-box:hover{
+  background-color: rgba(211, 211, 211, 0.637);
+
+}
+
+.sidebar-box img
+{
+  height: 24px;
+
+ 
+}
+.sidebar-box p
+{
+  font-size: 10px;
+  font-weight: 600;
+}
